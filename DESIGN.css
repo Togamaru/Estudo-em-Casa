@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(126, 203, 233);
+    background-color: rgb(97, 192, 230);
 }
 .TEX{
 color: brown;
@@ -7,9 +7,12 @@ color: brown;
 
 }
 .VIDA{
-    color: rgb(23, 201, 23);
+    color: rgb(35, 167, 35);
 }
 
 .MONEY{
-    color: yellow;
+    color: rgb(255, 255, 0);
+}
+.Magicpoints{
+    color: blue;
 }
