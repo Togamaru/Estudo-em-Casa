@@ -1,11 +1,39 @@
 body{
-    background-color: rgb(97, 192, 230);
+    background-color: rgb(79, 96, 102);
+    color: whitesmoke;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px;
 }
-.TEX{
-color: brown;
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
 
+#title{
+    flex-direction:column;
+    line-height: 10px;
+}
+
+h1{
+    font-weight: 200;
+}
+
+main{
+display: flex;   
+flex-direction: row;
+margin-top: 50px;
 
 }
+h2{
+    font-size: 56px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 10px;
+}
+
 .VIDA{
     color: rgb(35, 167, 35);
 }
@@ -15,4 +43,8 @@ color: brown;
 }
 .Magicpoints{
     color: blue;
+}
+
+span{
+    color: brown;
 }
